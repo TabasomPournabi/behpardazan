@@ -1,0 +1,139 @@
+h1{
+    font-size: 39px;
+    text-align: center;
+    /* margin: 37px auto; */
+    color: #545454;
+}
+h1::after{
+    top: 12%;
+    background-color: #c7c7c7;
+    position: absolute;
+    right: 50%;
+    bottom: calc(50% - 25px);
+    width: 89%;
+    height: 1px;
+    content: "";
+    border-radius: 6px;
+    transform: translate(50%, -50%);
+
+}
+
+
+.parent{
+    width: 79%;
+    border-radius: 10px;
+    background-color: #efeded;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    min-height: 67vh;
+
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.child{
+    background-color: #fefefe;
+    width: 90%;
+    margin: 11px auto;
+    margin: 0 outo;
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    color: #6f6f6f;
+    transition: all .5s ease;
+
+}
+.child:hover{
+    color: #565252;
+    width: 92%;
+    font-size: 26px;
+}
+.div-child{
+    background-color: #e4a2a2;
+    text-align: center;
+    width: 85px;
+    margin: 15px 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.user-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-modal-parents{
+    border-radius: 20px;
+    width: 32%;
+    min-height: 35vh;
+    background-color: #c2c2c2;
+    position: absolute;
+    top: 25%;
+    left: 31%;
+}
+.show-modal-child{
+    margin-top: 14px;
+}
+.show-modal-button {
+    margin: 21px;
+    border: 1px solid #c2c2c2;
+    border-radius: 6px;
+    padding: 6px 16px;
+    width: 77px;
+    box-shadow: 0px -1px 20px 3px #d4d4da;
+   cursor: pointer;
+   transition: all .5s ease;
+}
+.show-modal-button:hover{
+    font-weight: 600;
+    width: 80px;
+}
+.formParent{
+    padding: 18px 0;
+    margin: 0 auto;
+     background-color:#ffffff;
+    
+    width: 92%;
+    border-radius: 7px;
+}
+form{
+    display: flex;
+/* justify-content: inherit; */
+flex-direction: column;
+align-items: center;
+}    
+form input{
+   background:  #efefef;
+    border: none;
+    height: 37px;
+    border-radius: 7px;
+    width: 70%;
+    margin: 10px;
+}
+::placeholder {
+    color: rgb(178, 178, 178);
+ text-align: center;
+    text-transform: uppercase;
+  }
+  form input:focus {
+    outline: none !important;;
+  }
+  form button{
+   
+    background: #efefef;
+    border: none;
+    height: 37px;
+    border-radius: 7px;
+    width: 70%;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(107 107 107);
+    transition: all .5s ease;
+  }
+  form button:hover{
+    font-weight: 600;
+    width: 72%;
+  }
